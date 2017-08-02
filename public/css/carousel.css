@@ -1,0 +1,407 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  background: #f2f2f2 url('img/bg-tile.png');
+  font-size: 85%; 
+}
+.brand {
+  color: #ff6600;
+  font-family: fantasy;
+  font-size: 26px;
+  margin: 10px 8px 0 4px;
+  text-align-last: end;
+  vertical-align: bottom;
+}
+h4{
+  color: #ff6600;
+}
+.small-header {
+    padding: 1em 5em;
+    height: 290px;
+    color: black;
+    text-align: right;
+}
+.small-header h5{
+  color: gray;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin: 0 0 4rem 0;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 36rem;
+  background-color: #777;
+  overflow:hidden;
+}
+.carousel-item > img {
+  position: absolute;
+  left: 0;
+  min-width: 100vw;
+  height: 40rem;
+}
+.content-center {
+  margin:0 auto;
+}
+.bold {
+  font-weight:bold;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-6 {
+  text-align: center;
+}
+.marketing .col-lg-6 ul{
+  margin-right: .75rem;
+  margin-left: .75rem;
+  text-align: center;
+  list-style-position: inside;
+}
+.marketing .col-lg-12{
+  text-align: center;
+  margin: 1.2rem 0;
+}
+.marketing .col-lg-12 ul {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  text-align: center;
+  list-style-position: inside;
+}
+.marketing .col-lg-12 li{
+  font-size: 1.2rem;
+}
+
+
+/* index-Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 2.5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 0.9;
+  letter-spacing: -.05rem;
+  margin-bottom: 15px;
+}
+.light {
+  color: #999999;
+  font-size: 75%
+}
+.watermark {
+  color: #d9d9d9;
+  font-size: 80%
+}
+.comments {
+ margin: 0 40px;
+ padding: 10px;
+}
+.comments h6,p{
+ margin: 4px ;
+}
+.comments h6{
+  text-align: center;
+}
+
+
+/* full profile page
+------------------------- */
+.profile h2 {
+  font-weight: normal;
+  color: #484848; 
+  font-size: 2.3em; 
+  margin-bottom: 10px; 
+  text-decoration: underline; 
+}
+
+/** @group personal settings **/
+#info { 
+  margin: 20px 0;text-align: right; 
+}
+#photo { 
+  position: absolute; bottom: 20px 
+}
+#photo img { 
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px; 
+  height: 210px;
+}
+
+.profile section {
+  margin: 25px 30px 5px 30px;
+}
+.profile section p{
+  padding: 6px 25px;
+  font-size: 17px;
+}
+#education .right {
+  float: right;
+  font-size: 17px;
+}
+#education p {
+  padding: 6px 25px;
+}
+
+/** @group skills **/
+#skills section { 
+  display: block;
+  float: right; 
+  margin:0;
+  padding: 5px 0 0 20px; 
+  background: transparent;
+}
+#skills h6 {
+  font-size: 1.3em; line-height: 1.5em;
+}
+#skills ul { 
+  display: block;
+}
+#skills ul li { 
+  list-style-position: inside; 
+  vertical-align: top; 
+  margin-bottom: 5px; 
+  font-family:sans-serif;
+  font-weight: 300;
+  color: #666; 
+  font-size: 1.3em; line-height: 1.5em; 
+}
+
+/** @group clearfix **/
+.clearfix:after { 
+  content: "."; display: block; clear: both; 
+  visibility: hidden; line-height: 0; height: 0; }
+.clearfix { 
+  display: inline-block; }
+
+
+
+/*Projs Page  --- --- --- --- --- --- --- ---*/
+.projects .small-header {
+    background: url(/img/contact-bg.jpg);
+}
+.projects table {
+  margin: 20px;
+  font-size: 17px;
+}
+.projects table td {
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+.projects table a, .projDetail a  {
+  color:darkblue;
+}
+
+
+/*Contact Page
+-----------------------------------------------*/
+.contact .small-header {
+    background: url(/img/contact-head.jpg);
+    background-position: bottom;
+}
+
+.contact form {
+  width: 100%;
+  display: block;
+}
+.contact form ul {
+    margin: 0;
+    padding: 3em 3em;
+    list-style: none;
+}
+.contact form ul li {
+  margin: 0 0 0.25em 0; 
+  clear: both;
+  display: inline-block;
+  width: 100%;  
+}
+.contact form ul li p {
+  margin:0;
+}
+.req {
+      color: red; 
+    }
+.contact label {
+    display: block;
+    margin: 1em 0 0.5em 0;
+    color: black;
+    font-size: pxtoem(16, 16);
+  }
+.contact input {
+    margin: 0 0 0.5em 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 6px 10px;
+    color: black;
+    background-color:#cccccc; 
+    font-size: pxtoem(16, 16);
+    width: 100%;
+  }
+.contact textarea {
+    border-radius: 4px;
+    border: 0;
+    padding: 6px 10px;
+    width: 100%;
+    color: black;
+    background-color:#cccccc; 
+  }
+.contact small {
+    color: black;
+    margin: 0 0 0 0.5em;
+  }
+.btn-send {
+  margin:10px 0;
+  float: right;
+  box-shadow: 6px 6px 5px grey;
+  background-color: #ff6600;
+  color: white;
+  width: 110px;
+  height: 38px;
+}
+
+
+.contact .sidebar{
+  position: relative; 
+  padding: 5px 25px;
+}
+.contact .sidebar h6 {
+  color: #ff6600;
+  font-size: 14px;
+  margin:2.5em 0 0.5em 0;
+}
+.contact .sidebar:after {
+    content : "";
+    display: block;   
+    margin: 30px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(/img/wave.png);
+    background-size: 70px 160px;
+    opacity: 0.1;
+    z-index: -1;
+}
+.icon{
+  height: 45px;
+  width: 45px;
+  float: left;
+}
+
+// Media Queries
+
+@media only screen and (max-width:480px) {
+  .pull-right {
+    float: none; 
+  }
+  input {
+    width: 100%; 
+  }
+  label {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    clear: both;
+  }
+  li, p {
+   width: 100%; 
+  }
+  input.btn {
+   margin: 1.5em 0 0.5em; 
+  }
+  h1 {
+   font-size: pxtoem(36, 16); 
+  }
+  h3 {
+    font-size: pxtoem(18, 16)
+  }
+  li small {
+   display: none; 
+  }
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 43px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+
+  .profile h2 { display: block; text-align: center; }
+  #info { float: none; display: block; text-align: center; }
+  #photo {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .profile p { padding: 0; }
+}
+
+@media only screen and (max-width: 570px) {
+  .profile ul li {
+    display: inline-block; 
+    padding-left: 15px; 
+    width: 140px; 
+    background-position: -5px 0px;
+    margin-right: 6px; 
+    line-height: 1.7em;
+  }
+  #skills section { margin-bottom: 15px; }
+}
+
+@media only screen and (max-width: 480px) {
+  .profile ul li { width: 120px; }
+}
+
+/** iPhone only **/
+@media screen and (max-device-width: 480px) {
+  .profile ul li { width: 150px; }
+}
